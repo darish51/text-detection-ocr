@@ -14,7 +14,7 @@ reader = easyocr.Reader(['en'], gpu=False)
 # detect text on image
 text_ = reader.readtext(img) 
 
-threshold = 0.25 
+threshold = 0.25
 # draw bbox and text
 for t_, t in enumerate(text_):
     print(t)
