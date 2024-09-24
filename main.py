@@ -6,7 +6,7 @@ import numpy as np
 # read image
 image_path = 'C:/Users/daris/OneDrive/Documents/Visual Studio Code/text-detection-python-easyocr-master/data/imagetext2.png'
 
-img = cv2.imread(image_path) 
+img = cv2.imread(image_path)
 
 # instance text detector
 reader = easyocr.Reader(['en'], gpu=False)
