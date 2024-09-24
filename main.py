@@ -12,7 +12,7 @@ img = cv2.imread(image_path)
 reader = easyocr.Reader(['en'], gpu=False)
 
 # detect text on image
-text_ = reader.readtext(img) 
+text_ = reader.readtext(img)
 
 threshold = 0.25
 # draw bbox and text
