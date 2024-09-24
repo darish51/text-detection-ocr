@@ -9,7 +9,7 @@ image_path = 'C:/Users/daris/OneDrive/Documents/Visual Studio Code/text-detectio
 img = cv2.imread(image_path)
 
 # instance text detector
-reader = easyocr.Reader(['en'], gpu=False) 
+reader = easyocr.Reader(['en'], gpu=False)
 
 # detect text on image
 text_ = reader.readtext(img)
