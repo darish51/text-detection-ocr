@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # read image
-image_path = 'C:/Users/daris/OneDrive/Documents/Visual Studio Code/text-detection-python-easyocr/data/imagetext2.png'
+image_path = 'C:/Users/daris/OneDrive/Documents/Visual Studio Code/text-detection-python-easyocr/data/imagetext1.png'
 
 img = cv2.imread(image_path)
 
